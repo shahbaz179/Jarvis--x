@@ -8,7 +8,13 @@ import LenisProvider from '@/components/effects/LenisProvider';
 
 export const metadata: Metadata = {
   title: 'JARVIS X | Iron-Man Level AI Desktop Assistant',
-  description: 'A cinematic AI desktop assistant for voice, automation, research, memory, coding, and multi-agent execution.',
+
+  description:
+    'A cinematic AI desktop assistant for voice, automation, research, memory, coding, and multi-agent execution.',
+
+  verification: {
+    google: 'cnqSWO5iYUov_1xnpdy0lkauaozPmRzeoDpcIYnKzac',
+  },
 };
 
 export default function RootLayout({
